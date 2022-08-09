@@ -1,0 +1,103 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Heebo Medium';
+  font-size: larger;
+  background-color: #ffd60a;
+}
+
+h1 {
+  color: #000814;
+  font-family: 'Heebo Medium';
+}
+
+p {
+  color: #000814;
+}
+
+#titulo {
+  height: auto;
+  padding: 0
+  margin: 0;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  display: block;
+  color: white;
+  text-decoration: none;
+  background-color: ;
+}
+
+li,
+ul {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  border: 10px solid #001D3D;
+}
+
+#menu {
+  padding: 0;
+  margin-bottom: 3%;
+  width: auto;
+  height: auto;
+  background-color: #001D3D;
+}
+
+header {
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+  margin: 20px;
+  background-color: #003566;
+}
+
+#display-imc-result {
+  padding: 5px;
+  font-family: 'Heebo';
+  font-size: larger;
+  margin: auto;
+  width: fit-content;
+  border: solid;
+  border-width: 0.1mm ;
+  background-color: white;
+  margin-top: 30px;
+}
+
+input {
+  background-color: #white;
+  font-family: 'Heebo';
+  margin-top: 10px;
+  width: 100px;
+}
+
+label {
+  font-family: 'Heebo';
+}
+
+#button-calc-imc {
+  border-radius: 10%;
+  padding: 10px;
+  font-family: 'Heebo Regular';
+  background-color: #white;
+  color: #000814;
+}
+
+.footer {
+  font-family: Arial, Helvetica, sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: auto;
+  width: 100%;
+  background-color: #FFC300;
+  color: white;
+  text-align: end;
+}
