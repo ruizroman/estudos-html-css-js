@@ -4,7 +4,7 @@ body {
   padding: 0;
   font-family: 'Heebo Medium';
   font-size: larger;
-  background-color: #ffd60a;
+  background-color: #ffef9f;
 }
 
 h1 {
@@ -62,7 +62,6 @@ header {
 #display-imc-result {
   padding: 5px;
   font-family: 'Heebo';
-  font-size: larger;
   margin: auto;
   width: fit-content;
   border: solid;
@@ -84,20 +83,45 @@ label {
 
 #button-calc-imc {
   border-radius: 10%;
-  padding: 10px;
+  padding: 5px;
   font-family: 'Heebo Regular';
-  background-color: #white;
+  background-color: white;
   color: #000814;
 }
 
+
+
+a  {
+  border: solid gray;
+  color: white;
+}
+
+.about-imc {
+  font-family: 'Heebo';
+  color: white;
+  margin: 20px;
+  border: solid white;
+  border-radius: 1%;
+  border-style: dotted;
+  padding: 15px;
+  text-align: justify;
+  background-color: #003566;
+}
+
 .footer {
+  border-top: solid #001D3D;
   font-family: Arial, Helvetica, sans-serif;
   position: fixed;
   left: 0;
   bottom: 0;
   height: auto;
   width: 100%;
-  background-color: #FFC300;
+  background-color: #f3df7d;
   color: white;
   text-align: end;
+}
+
+.fonte {
+  padding: 20px;
+  text-align: right;
 }

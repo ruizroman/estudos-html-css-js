@@ -13,26 +13,28 @@
 
     <div id="titulo"><h1>Calculadora de IMC</Base></h1></div>
 
+
+    <!--Menu-->
     <div id="menu">
       <li>
         <ul>Inicio</ul>
-        <ul>O que é IMC?</ul>
-        <ul>Classificações de IMC</ul>
+        <a href="about-imc.html"><ul>O que é IMC?</ul></a>
       </li>
     </div>
 
     <!--Input weight-->
       <label for="input-weight">Informe o seu peso (kg): &nbsp; </label> <br />
-      <input id="input-weight" type="number" value="118" step="0.1" />
+      <input id="input-weight" type="number" value="60" step="0.1" />
 
       <br /><br />
 
     <!--Input height-->
       <label for="input-height">Informe a sua altura (m): </label> <br />
-      <input id="input-height" type="number" value="1.82" step="0.01" />
+      <input id="input-height" type="number" value="1.70" step="0.01" />
 
       <!--Botão de calculo do IMC-->
     <p><button id="button-calc-imc"><strong>Calcular</strong></button></p>
+    
 
     <!--Resultado do IMC-->
     <p id="display-imc-result">IMC Calculado: <strong id="imc-result"></strong> </p>
@@ -41,11 +43,14 @@
     </p>
 
 
-
+    <!--footer 
     <div class="footer" id="footer">
       <p>by ruizroman</p>
     </div>
+    -->
 
     <script defer src="./js/script.js"></script>
   </body>
 </html>
+
+
